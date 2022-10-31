@@ -8,7 +8,8 @@ URL de la pàgina web escollida: https://tarragona.posidoniaport.com
   * Arnau Giribet March - [agiribetm@uoc.edu](agiribetm@uoc.edu)
 
 ## Descripció del repositori
-Breve desripción de la práctica/sitio web elegido.
+El Port de Tarragona posa a la disposició dels ciutadans l'eina GISWEB per tal que tothom qui vulgui pugui obtenir informació precisa de totes les embarcacions que han fet parada a les seves aigües.
+Ja que, si bé l'eina proposada pel Port de Tarragona ofereix l'oportunitat de consultar-ne un històric molt ben detallat, no presenta una API per a descarregar-lo en la seva totalitat, es presenta en aquest repositori un web scraper que permet recollir i baixar tota aquesta informació.
 
   * `memoria.pdf`: Document de respostes.
   * `/source/scraper.py`: Arxiu de web scraping principal.
