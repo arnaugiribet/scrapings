@@ -17,8 +17,8 @@ Ja que, si bé l'eina proposada pel Port de Tarragona ofereix l'oportunitat de c
   * `/source/Característiques vaixells.ipynb`: Scraper que recull informació dels vaixells que han fet alguna escala al Port de Tarragona durant l'any 2019.
   * `/source/Escales vaixells.ipynb`: Scraper que recull informació de les escales de vaixells al Port de Tarragona durant l'any 2019.
   * `/source/requirements.txt`: Llista de paquets utilitzats (Python 3.9.13).
-  * `/dataset/Característiques Vaixells_2019.xlsx`: Dataset que recull informació sobre tots els vaixells que han fet alguna escala al Port de Tarragona durant el 2019.
-  * `/dataset/Escales Vaixells_2019.xlsx`: Dataset que recull informació sobre totes les escales de vaixells al Port de Tarragona durant el 2019.
+  * `/dataset/Característiques Vaixells_2019.xlsx`: Dataset que recull informació sobre tots els vaixells que han fet alguna escala al Port de Tarragona durant l'any 2019.
+  * `/dataset/Escales Vaixells_2019.xlsx`: Dataset que recull informació sobre totes les escales de vaixells al Port de Tarragona durant l'any 2019.
 
 ## Publicació a Zenodo
 (Falta acabar) El dataset ha sido publicado en Zenodo con DOI [10.5281/zenodo.0000000](https://doi.org/10.5281/zenodo.0000000).
