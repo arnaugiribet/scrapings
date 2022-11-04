@@ -1,2 +1,5 @@
 #crear esperes correctament
 https://stackoverflow.com/questions/59130200/selenium-wait-until-element-is-present-visible-and-interactable
+
+update:
+passar els .ipynb a .py!!!
