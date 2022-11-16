@@ -6,6 +6,7 @@ URL de la pàgina web escollida: https://tarragona.posidoniaport.com
 
 ## Autors
   * Arnau Giribet March - [agiribetm@uoc.edu](agiribetm@uoc.edu)
+  * Oscar Buisan Viniegra - [obuisanv@uoc.edu](obuisanv@uoc.edu)
 
 ## Descripció del repositori
 El Port de Tarragona posa a la disposició dels ciutadans l'eina GISWEB per tal que tothom qui vulgui pugui obtenir informació precisa de totes les embarcacions que han fet parada a les seves aigües.
