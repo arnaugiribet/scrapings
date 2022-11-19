@@ -7,7 +7,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
-import os
 import pandas
 def s(t1,t2):
     sleep(randint(1000*t1,1000*t1+1000*t2)/1000)
@@ -39,16 +38,25 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located(
     (By.CSS_SELECTOR, "[data-bind='datetimepicker: fecatr']"))).clear()
 driver.find_elements(By.CSS_SELECTOR, "[data-bind='datetimepicker: fecatr']")[0].send_keys(data_inici)
 
+#clica a fet
+WebDriverWait(driver, 20).until(EC.presence_of_element_located(
+    (By.CSS_SELECTOR, "[class='ui-datepicker-close ui-state-default ui-priority-primary ui-corner-all']"))).click()
+
 #esborra el text per defecte i introdueix la data final
 WebDriverWait(driver, 20).until(EC.presence_of_element_located(
     (By.CSS_SELECTOR, "[data-bind='datetimepicker: fecsal, mindate: fecatr']"))).clear()
 driver.find_elements(By.CSS_SELECTOR, "[data-bind='datetimepicker: fecsal, mindate: fecatr']")[0].send_keys(data_fi)
 
+#clica a fet
+WebDriverWait(driver, 20).until(EC.presence_of_element_located(
+    (By.CSS_SELECTOR, "[class='ui-datepicker-close ui-state-default ui-priority-primary ui-corner-all']"))).click()
+
+s(5,1)
 #clica a Veure
 WebDriverWait(driver, 20).until(EC.element_to_be_clickable(
     (By.XPATH, "//button[text()='Veure']"))).click()
 
-s(1,1)
+s(5,1)
 #estableix 30 registres per pàgina si les dades s'han acabat de carregar
 WebDriverWait(driver, 30).until(EC.invisibility_of_element_located(
     (By.XPATH, "//div[text()='Carregant...']")));
