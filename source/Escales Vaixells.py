@@ -18,7 +18,7 @@ opts.add_argument("user-agent=Real Human Beep Bop")
 
 #iniciar chrome.driver
 serv = Service('../chromedriver.exe')
-driver = webdriver.Chrome(service=serv, chrome_options=opts)
+driver = webdriver.Chrome(service=serv, options=opts)
 
 link = 'https://tarragona.posidoniaport.com/'
 data_inici="01/01/2019 00:00"
