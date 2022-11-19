@@ -1,7 +1,0 @@
-#crear esperes correctament
-https://stackoverflow.com/questions/59130200/selenium-wait-until-element-is-present-visible-and-interactable
-
-pendent:
-canviar el .ipynb de característiques vaixells a .py
-revisar que escales vaixells funciona correctament
-mriar robots.txt i el nom del scraper
