@@ -12,7 +12,7 @@ def s(t1,t2):
     sleep(randint(1000*t1,1000*t1+1000*t2)/1000)
     
 #iniciar chrome.driver
-serv = Service('../../chromedriver.exe')
+serv = Service('../chromedriver.exe')
 driver = webdriver.Chrome(service=serv)
 
 link = 'https://tarragona.posidoniaport.com/'
