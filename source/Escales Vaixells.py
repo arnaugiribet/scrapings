@@ -6,14 +6,19 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
 import os
 import pandas
 def s(t1,t2):
     sleep(randint(1000*t1,1000*t1+1000*t2)/1000)
     
+#canviar l'user-agent
+opts = Options()
+opts.add_argument("user-agent=Real Human Beep Bop")
+
 #iniciar chrome.driver
 serv = Service('../chromedriver.exe')
-driver = webdriver.Chrome(service=serv)
+driver = webdriver.Chrome(service=serv, chrome_options=opts)
 
 link = 'https://tarragona.posidoniaport.com/'
 data_inici="01/01/2019 00:00"
