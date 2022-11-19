@@ -27,6 +27,9 @@ data_fi="31/12/2019 23:59"
 #inicia navegador
 driver.get(link)
 
+#comprova que l'user-agent és el correcte
+#driver.execute_script("return navigator.userAgent")
+
 #clica a històrics quan la pàgina s'hagi carregat
 WebDriverWait(driver, 20).until(EC.element_to_be_clickable(
     (By.XPATH, "//span[@id='historicos']"))).click()
