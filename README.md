@@ -21,7 +21,7 @@ Ja que, si bé l'eina proposada pel Port de Tarragona ofereix l'oportunitat de c
   * `/dataset/Escales Vaixells_2019.xlsx`: Dataset que recull informació sobre totes les escales de vaixells al Port de Tarragona durant l'any 2019.
 
 ## Publicació a Zenodo
-El dataset ha sido publicado en Zenodo con DOI [10.5281/zenodo.7337235](https://doi.org/10.5281/zenodo.7337235).
+El dataset s'ha publicat a Zenodo amb DOI [10.5281/zenodo.7337235](https://doi.org/10.5281/zenodo.7337235).
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7337235.svg)](https://doi.org/10.5281/zenodo.7337235)
 
