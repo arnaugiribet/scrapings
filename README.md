@@ -15,7 +15,8 @@ El Port de Tarragona posa a la disposició dels ciutadans l'eina GISWEB per tal 
 
 Ja que, si bé l'eina proposada pel Port de Tarragona ofereix l'oportunitat de consultar-ne un històric molt ben detallat, no facilita una API per a descarregar-lo en la seva totalitat, es presenta en aquest repositori un web scraper que permet recollir i baixar tota aquesta informació.
 
-  * `memoria.pdf`: Document de respostes.
+  * `Memòria.pdf`: Document de respostes.
+  * `Explicació codi.docx`: Explicació detallada del funcionament del codi de /source/Escales Vaixells.py.
   * `/source/Escales Vaixells.py`: Scraper que recull informació de les escales de vaixells al Port de Tarragona durant l'any 2019.
   * `/source/requirements.txt`: Llista de paquets utilitzats (Python 3.9.13).
   * `/dataset/Escales Vaixells_2019.xlsx`: Dataset que recull informació sobre totes les escales de vaixells al Port de Tarragona durant l'any 2019.
